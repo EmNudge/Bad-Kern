@@ -28,3 +28,16 @@ p {
   text-decoration: none;
   padding: 5px 20px;
 }
+
+.github-link {
+  display: inline-block;
+  position: fixed;
+  top: 0; right: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.github-link svg {
+  color: #fff;
+  fill: #ac95e8;
+}
