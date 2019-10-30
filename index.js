@@ -1,5 +1,11 @@
 const bookmarklet = () => {
-  const className = "kern-button-" + Math.random().toString(16).slice(2);
+  const getHostName = () => {
+    const url = window.location.host;
+    if (url.match(/[a-zA-Z]/g)) return url.match(/[a-zA-Z]/g).join('');
+    return url.match(/[0-9]/g).join('');
+  };
+
+  const className = "kern-button-" + getHostName();
 
   const style = document.createElement('style');
   style.innerText = `
