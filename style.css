@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 25px;
+  padding: 20px;
+}
+h1 {
+  padding: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.bookmarklet-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.bookmarklet {
+  display: inline-block;
+  background: #336;
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+}
